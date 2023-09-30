@@ -1,0 +1,75 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "Arial", sans-serif;
+}
+
+.grid {
+    width: 650px;
+    height: 550px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px 60px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.grid h1 {
+    font-family: "Arial", sans-serif;
+    background-color: #4CAF50;
+    font-size: 64px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+#score {
+    color: #333;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 25px;
+}
+
+.grid #question {
+    font-family: "Courier New", monospace;
+    font-size: 32px;
+    color: #555;
+    margin-top: 25px;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #4CAF50;
+    width: 250px;
+    font-size: 22px;
+    color: #FFFFFF;
+    border: none;
+    margin: 10px 0;
+    padding: 12px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #388E3C;
+    transform: scale(1.05);
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+    box-shadow: 0 0 10px #4CAF50;
+}
+
+#progress {
+    color: #666;
+    font-size: 20px;
+    margin-top: 20px;
+}
